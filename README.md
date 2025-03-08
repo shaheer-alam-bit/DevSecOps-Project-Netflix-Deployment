@@ -383,11 +383,11 @@ pipeline {
 
 ```
 
-If you get docker login failed errorr
+If you get docker login failed error:
 
-sudo su
-sudo usermod -aG docker jenkins
-sudo systemctl restart jenkins
+- sudo su
+- sudo usermod -aG docker jenkins
+- sudo systemctl restart jenkins
 
 **Phase 4: Monitoring**
 
@@ -731,7 +731,7 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
 4. **Access your Application**
    - To Access the app make sure port 30007 is open in your security group and then open a new tab paste your NodeIP:30007, your app should be running.
 
-**Phase 7: Cleanup**
+# Phase 7: Cleanup
 
 1. **Cleanup AWS EC2 Instances:**
     - Terminate AWS EC2 instances that are no longer needed.
